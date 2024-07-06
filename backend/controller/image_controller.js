@@ -9,7 +9,7 @@ export const uploadImage=async(req,res)=>{
     }
     try{
         const file=await File.create(fileObj);
-        res.status(200).json({path:`http://localhost:5555/file/${file._id}`})
+        res.status(200).json({path:`https://file-portal-bee.onrender.com/file/${file._id}`})
     }catch(error){
         console.error(error.messagge)
         res.status(500).jason({error:error.message})
