@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background:#000;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+}
+
+.wrapper{
+    background-color: white;
+    width: 600px;
+    height: 400px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+h1{
+    font-size: 40px;
+    font-weight: 600;
+    color:cornflowerblue;
+    margin: 40px 0;
+}
+
+button{
+    width: 150px;
+    height: 40px;
+    background-color:cornflowerblue;
+    border: 1px solid azure;
+    color: white;
+    font-size: 20px;
+    margin: 30px 0;
+    cursor: pointer;
+    border-radius: 30px;
+}
